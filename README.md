@@ -1,4 +1,4 @@
-# adaptive
+# new
 
 > A Vue.js project
 
