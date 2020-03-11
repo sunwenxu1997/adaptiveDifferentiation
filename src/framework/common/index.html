@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>common</title>
+  <meta charset="UTF-8">
+  <title>入口</title>
 </head>
+
 <body>
 
 </body>
+
 </html>
 <script>
-  function isMobile () {
+  function isMobile() {
     var userAgenInfo = navigator.userAgent
     var Agents = new Array('Android', 'iPhone', 'SymbianOS', 'iPad', 'iPod')
     var flag = false
@@ -22,16 +25,16 @@
     return flag
   }
   if (isMobile()) {
-    window.location.href = '/m_index.html#/'
+    window.location.href = '/m.html#/'
   } else {
-    window.location.href = '/p_index.html#/'
+    window.location.href = '/c.html#/'
   }
 
   // //页面进入时获取相关参数，防止直接进入首页
   // var URL_hash = window.location.hash
   // if (isMobile()) {
-  //   window.location.href = '/m_index.html'+ URL_hash
+  //   window.location.href = '/m.html'+ URL_hash
   // } else {
-  //   window.location.href = '/p_index.html'+ URL_hash
+  //   window.location.href = '/c.html'+ URL_hash
   // }
 </script>

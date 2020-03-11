@@ -17,7 +17,7 @@ let router = new Router({
  */
 router.beforeEach((to, from, next) => {
   if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-    window.location.href = '/m_index.html#/'
+    window.location.href = '/m.html#/'
     return
   }
   next()
